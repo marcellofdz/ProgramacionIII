@@ -1,0 +1,13 @@
+E:\repos\ProgramacionIII\AsignacionI\bin\Debug\netcoreapp3.1\AsignacionI.exe
+E:\repos\ProgramacionIII\AsignacionI\bin\Debug\netcoreapp3.1\AsignacionI.deps.json
+E:\repos\ProgramacionIII\AsignacionI\bin\Debug\netcoreapp3.1\AsignacionI.runtimeconfig.json
+E:\repos\ProgramacionIII\AsignacionI\bin\Debug\netcoreapp3.1\AsignacionI.runtimeconfig.dev.json
+E:\repos\ProgramacionIII\AsignacionI\bin\Debug\netcoreapp3.1\AsignacionI.dll
+E:\repos\ProgramacionIII\AsignacionI\bin\Debug\netcoreapp3.1\AsignacionI.pdb
+E:\repos\ProgramacionIII\AsignacionI\obj\Debug\netcoreapp3.1\AsignacionI.csprojAssemblyReference.cache
+E:\repos\ProgramacionIII\AsignacionI\obj\Debug\netcoreapp3.1\AsignacionI.AssemblyInfoInputs.cache
+E:\repos\ProgramacionIII\AsignacionI\obj\Debug\netcoreapp3.1\AsignacionI.AssemblyInfo.cs
+E:\repos\ProgramacionIII\AsignacionI\obj\Debug\netcoreapp3.1\AsignacionI.csproj.CoreCompileInputs.cache
+E:\repos\ProgramacionIII\AsignacionI\obj\Debug\netcoreapp3.1\AsignacionI.dll
+E:\repos\ProgramacionIII\AsignacionI\obj\Debug\netcoreapp3.1\AsignacionI.pdb
+E:\repos\ProgramacionIII\AsignacionI\obj\Debug\netcoreapp3.1\AsignacionI.genruntimeconfig.cache
