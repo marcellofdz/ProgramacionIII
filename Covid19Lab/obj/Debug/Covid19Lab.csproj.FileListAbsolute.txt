@@ -1,0 +1,9 @@
+E:\repos\ProgramacionIII\Covid19Lab\bin\Debug\Covid19Lab.exe.config
+E:\repos\ProgramacionIII\Covid19Lab\bin\Debug\Covid19Lab.exe
+E:\repos\ProgramacionIII\Covid19Lab\bin\Debug\Covid19Lab.pdb
+E:\repos\ProgramacionIII\Covid19Lab\obj\Debug\Covid19Lab.csprojAssemblyReference.cache
+E:\repos\ProgramacionIII\Covid19Lab\obj\Debug\Covid19Lab.csproj.CoreCompileInputs.cache
+E:\repos\ProgramacionIII\Covid19Lab\obj\Debug\Covid19Lab.exe
+E:\repos\ProgramacionIII\Covid19Lab\obj\Debug\Covid19Lab.pdb
+E:\repos\ProgramacionIII\Covid19Lab\bin\Debug\covid19db.mdf
+E:\repos\ProgramacionIII\Covid19Lab\bin\Debug\covid19db_log.ldf
