@@ -1,0 +1,9 @@
+E:\repos\ProgramacionIII\TransAppCovid19\obj\Debug\TransAppCovid19.csprojAssemblyReference.cache
+E:\repos\ProgramacionIII\TransAppCovid19\obj\Debug\TransAppCovid19.csproj.CoreCompileInputs.cache
+E:\repos\ProgramacionIII\TransAppCovid19\bin\Debug\CovidDB.mdf
+E:\repos\ProgramacionIII\TransAppCovid19\bin\Debug\CovidDB_log.ldf
+E:\repos\ProgramacionIII\TransAppCovid19\bin\Debug\TransAppCovid19.exe.config
+E:\repos\ProgramacionIII\TransAppCovid19\bin\Debug\TransAppCovid19.exe
+E:\repos\ProgramacionIII\TransAppCovid19\bin\Debug\TransAppCovid19.pdb
+E:\repos\ProgramacionIII\TransAppCovid19\obj\Debug\TransAppCovid19.exe
+E:\repos\ProgramacionIII\TransAppCovid19\obj\Debug\TransAppCovid19.pdb
