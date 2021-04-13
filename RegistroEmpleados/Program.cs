@@ -13,7 +13,7 @@ namespace RegistroEmpleados
     {
         static void Main(string[] args)
         {
-        string Matricula, Direccion, Ciudad, Estado, MatriculaCentro, Cedula, Nombres, Apellidos, Sexo, FechaNacimiento, Puesto, Sueldo;
+        string Matricula, Direccion, Ciudad, Estado, MatriculaCentro, Cedula, NombreCentro, Nombres, Apellidos, Sexo, FechaNacimiento, Puesto, Sueldo;
 
             Int32 CantidadRegistros;
             SqlConnection connection = new SqlConnection(ConfigurationManager.ConnectionStrings["connection"].ConnectionString);
@@ -28,12 +28,20 @@ namespace RegistroEmpleados
 
             while (salir.ToLower() == "no")
             {
+                Console.Write("Ingrese el nombre del Centro: ");
+                NombreCentro = Console.ReadLine();
 
                 Console.Write("Ingrese el nombre: ");
                 Nombres = Console.ReadLine();
 
                 Console.Write("Ingrese los apellidos: ");
                 Apellidos = Console.ReadLine();
+
+                Ciudad = ConfigurationManager.AppSettings["Lugar"];
+                Console.WriteLine("Ingrese la localidad: " + Ciudad);
+
+                Console.Write("Ingrese la direccion: ");
+                Direccion = Console.ReadLine();
 
                 Console.Write("Ingrese el sexo: ");
                 Sexo = Console.ReadLine();
@@ -62,6 +70,27 @@ namespace RegistroEmpleados
 
                 try
                 {
+                    tran = connection.BeginTransaction();
+
+                    cmd = new SqlCommand("registrar_empleado", connection, tran);
+                    cmd.Parameters.AddWithValue("@Matricula", Matricula);
+                    cmd.Parameters.AddWithValue("@Direccion", Direccion);
+                    cmd.Parameters.AddWithValue("@Ciudad",Ciudad);
+                    cmd.Parameters.AddWithValue("@Estado", Estado);
+                    cmd.Parameters.AddWithValue("@MatriculaCentro", MatriculaCentro);
+                    cmd.Parameters.AddWithValue("@NombreCentro", NombreCentro);
+                    cmd.Parameters.AddWithValue("@Cedula", Cedula);
+                    cmd.Parameters.AddWithValue("@Nombres", Nombres);
+                    cmd.Parameters.AddWithValue("@Apellidos", Apellidos);
+                    cmd.Parameters.AddWithValue("@Sexo", Sexo);
+                    cmd.Parameters.AddWithValue("@FechaNacimiento", FechaNacimiento);
+                    cmd.Parameters.AddWithValue("@Puesto", Puesto);
+                    cmd.Parameters.AddWithValue("@Sueldo", Sueldo);
+
+                    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+                    CantidadRegistros = cmd.ExecuteNonQuery();
+
+                    tran.Commit();
 
                 }
                 catch (Exception)
@@ -71,6 +100,7 @@ namespace RegistroEmpleados
                     Console.WriteLine("Ocurrió un error, contacta con el palomo de soporte.");
                 }
 
+                Console.WriteLine($"Registros afectados: {CantidadRegistros}");
                 Console.Write("Desea salir? Si/no : ");
                 salir = Console.ReadLine();
             }
