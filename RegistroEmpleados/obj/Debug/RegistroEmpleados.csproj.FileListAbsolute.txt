@@ -1,0 +1,9 @@
+E:\repos\ProgramacionIII\RegistroEmpleados\bin\Debug\EmpleadosDB.mdf
+E:\repos\ProgramacionIII\RegistroEmpleados\bin\Debug\EmpleadosDB_log.ldf
+E:\repos\ProgramacionIII\RegistroEmpleados\bin\Debug\RegistroEmpleados.exe.config
+E:\repos\ProgramacionIII\RegistroEmpleados\bin\Debug\RegistroEmpleados.exe
+E:\repos\ProgramacionIII\RegistroEmpleados\bin\Debug\RegistroEmpleados.pdb
+E:\repos\ProgramacionIII\RegistroEmpleados\obj\Debug\RegistroEmpleados.csprojAssemblyReference.cache
+E:\repos\ProgramacionIII\RegistroEmpleados\obj\Debug\RegistroEmpleados.csproj.CoreCompileInputs.cache
+E:\repos\ProgramacionIII\RegistroEmpleados\obj\Debug\RegistroEmpleados.exe
+E:\repos\ProgramacionIII\RegistroEmpleados\obj\Debug\RegistroEmpleados.pdb
