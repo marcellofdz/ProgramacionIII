@@ -1,0 +1,9 @@
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\bin\Debug\CitasCovidDB.mdf
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\bin\Debug\CitasCovidDB_log.ldf
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\bin\Debug\CitasCovid_Log4Net.exe.config
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\bin\Debug\CitasCovid_Log4Net.exe
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\bin\Debug\CitasCovid_Log4Net.pdb
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\obj\Debug\CitasCovid_Log4Net.csprojAssemblyReference.cache
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\obj\Debug\CitasCovid_Log4Net.csproj.CoreCompileInputs.cache
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\obj\Debug\CitasCovid_Log4Net.exe
+E:\repos\ProgramacionIII\CitasCovid_Log4Net\obj\Debug\CitasCovid_Log4Net.pdb
