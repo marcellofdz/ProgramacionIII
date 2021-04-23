@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<license type="Non-Production Development" Applications="All" expiration="2021-07-22" id="0b2dba91-f721-40a2-9bf9-69c3d9a2ae91">
+  <name>marcellofernandez98@gmail.com</name>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+      <Reference URI="">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <DigestValue>RtNbw1C4VMf4lEp2S90FIBJeueU=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>lgeAddZ1+6rHlvubBXSAXRhCaZ4l05yNjX/vO5HJMyPBt1sZ/dHt3Ach+BFRsiEoTACQPb01YhEXNiINSu4va7BFG3y0SEwgMpV6DZwgGwo+JQIawumdfiOdt+reaeCiMm4KAgTlpU+Gs9N5g0e6pz33euYn7tJ8etfbj1/rskQ=</SignatureValue>
+  </Signature>
+</license>
